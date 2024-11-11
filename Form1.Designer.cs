@@ -32,15 +32,6 @@
             button1 = new Button();
             SuspendLayout();
             // 
-            // button1
-            // 
-            button1.Location = new Point(442, 147);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "FunDraw";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -49,6 +40,15 @@
             label1.Size = new Size(54, 15);
             label1.TabIndex = 0;
             label1.Text = "FunDraw";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(442, 147);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "A";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
