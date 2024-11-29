@@ -41,10 +41,10 @@
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.ForeColor = SystemColors.WindowText;
-            guna2HtmlLabel1.Location = new Point(184, 172);
-            guna2HtmlLabel1.Margin = new Padding(5, 4, 5, 4);
+            guna2HtmlLabel1.Location = new Point(161, 120);
+            guna2HtmlLabel1.Margin = new Padding(4, 3, 4, 3);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(513, 64);
+            guna2HtmlLabel1.Size = new Size(449, 61);
             guna2HtmlLabel1.TabIndex = 19;
             guna2HtmlLabel1.Text = "Một email sẽ được gửi về email@example.tld nếu tài khoản có trong hệ thống ";
             guna2HtmlLabel1.TextAlignment = ContentAlignment.MiddleCenter;
@@ -62,21 +62,22 @@
             btClose.FillColor = Color.FromArgb(160, 210, 235);
             btClose.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btClose.ForeColor = Color.Black;
-            btClose.Location = new Point(344, 271);
-            btClose.Margin = new Padding(5, 4, 5, 4);
+            btClose.Location = new Point(301, 203);
+            btClose.Margin = new Padding(4, 3, 4, 3);
             btClose.Name = "btClose";
             btClose.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btClose.Size = new Size(190, 53);
+            btClose.Size = new Size(166, 40);
             btClose.TabIndex = 21;
             btClose.Text = "Đóng";
             // 
             // ForgotPasswordSuccess
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(897, 548);
+            ClientSize = new Size(785, 411);
             Controls.Add(btClose);
             Controls.Add(guna2HtmlLabel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ForgotPasswordSuccess";
             Text = "ForgotPasswordSuccess";
             ResumeLayout(false);
