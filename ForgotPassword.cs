@@ -16,5 +16,10 @@ namespace FunDraw
         {
             InitializeComponent();
         }
+
+        private void btSend_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
